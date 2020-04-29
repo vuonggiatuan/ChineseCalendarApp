@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.littleguest.deeprootcalendar.MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/typhoon_btn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/typhoon_btn"
+            android:text="▼ 颱風/地震預報"
+            android:textColor="@color/whiteColor"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/store_btn"
+            android:text="▼ 商店"
+            android:textAlignment="center"
+            android:textColor="@color/blackColor"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/calendar_btn"
+            android:text="▼ 農民歷查詢"
+            android:textColor="@color/whiteColor"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/aboutus_btn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/aboutus_btn"
+            android:text="▼ 關於我們"
+            android:textColor="@color/whiteColor"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo_vertical" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

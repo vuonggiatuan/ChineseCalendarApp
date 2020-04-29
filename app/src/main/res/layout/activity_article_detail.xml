@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.littleguest.deeprootcalendar.ArticleDetailActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/detail_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="關於郁品堂"
+                android:textAlignment="center"
+                android:textColor="@color/whiteColor"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="財團法人郁品堂中醫基金會的成立，主要為推廣中醫「未病先防」與「已病防變」之理念落實，以及將古老中醫學運用於日常生活中，使之平易化與普及化，除了教導社會大眾積極主動地為自己的健康把關，並致力於各項中醫（藥）學術臨床研究，提升中醫（藥）療癌效果與科學化認證。同時，基金會本著中醫名醫扁鵲仁心仁術的理念精神，誓願為貧困窮苦或重症患者拔除病苦，提升患者的身心靈狀態和生活品質，致力為社會大眾的健康盡一份心力。"
+                android:textColor="@color/whiteColor"
+                android:textSize="15dp"
+                tools:text="財團法人郁品堂中醫基金會的成立，主要為推廣中醫「未病先防」與「已病防變」之理念落實，以及將古老中醫學運用於日常生活中，使之平易化與普及化，除了教導社會大眾積極主動地為自己的健康把關，並致力於各項中醫（藥）學術臨床研究，提升中醫（藥）療癌效果與科學化認證。同時，基金會本著中醫名醫扁鵲仁心仁術的理念精神，誓願為貧困窮苦或重症患者拔除病苦，提升患者的身心靈狀態和生活品質，致力為社會大眾的健康盡一份心力。" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/knowmore_btn" />
+        </LinearLayout>
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

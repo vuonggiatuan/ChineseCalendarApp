@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">郁品堂農民歷</string>
+    <string name="title_home">主頁</string>
+    <string name="title_calendar">農民歷</string>
+    <string name="title_shop">商店</string>
+    <string name="title_news">探索</string>
+    <string name="title_compass">羅盤</string>
+    <string name="title_setting">設定</string>
+    <string name="title_activity_calendar">郁品堂農民歷</string>
+    <string name="title_activity_date_detail">日期查詢詳細</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_shop">商店</string>
+    <string name="title_activity_news">最新消息</string>
+    <string name="title_activity_setting">設定</string>
+    <string name="title_activity_compass">羅盤</string>
+</resources>
